@@ -10,3 +10,7 @@ banana
 apple 
 
 Task Write a program that returns the top 10 most frequent words.
+
+proposed solution:
+my solution maintains a frequency map of the occurences of the words in the file using a dictioanry data structure in python
+
