@@ -1,8 +1,13 @@
-FILE_PATH = "document.txt"
+from dotenv import load_dotenv()
+import os
+
+load_dotenv()
+
+file_path = os.getenv("FILE_PATH")
 
 my_dict = {}
 
-with open(FILE_PATH, 'r') as f:
+with open(file_path, 'r') as f:
     word = f.readline()
     while(word):
         word = word.strip()
